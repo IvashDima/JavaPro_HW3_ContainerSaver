@@ -25,28 +25,5 @@ public class Main {
                 method.invoke(s1,c1, annotation.path());
             }
         }
-
-//        String path = "/Users/demon/Downloads/";
-//        String str;
-//        try {
-//            BufferedReader input = new BufferedReader(
-//                    new FileReader(path+"task1.txt"));
-//            BufferedWriter output = new BufferedWriter(
-//                    new FileWriter(path+"task1out.txt"));
-//            int k=1;
-//            while ((str=input.readLine())!=null){
-//                output.write("["+k+"] "+str);
-//                output.newLine();
-//                k++;
-//            }
-//            input.close();
-//            output.close();
-//        }catch (FileNotFoundException e){
-//            System.out.println("FileNotFoundException: "+e);
-//        }catch (IOException e){
-//            System.out.println("IOException"+e);
-//        }
-//        System.out.println("Hello world!");
     }
 }
-//        ДЗ 4 - слайд 111

@@ -8,7 +8,7 @@ public class SaverUtils{
     public static void save(Container container, String savepath){
         try {
             BufferedWriter output = new BufferedWriter(
-                    new FileWriter(savepath));   //"/Users/demon/Downloads/file.txt"));
+                    new FileWriter(savepath));
             output.write(container.text);
             output.close();
         }catch (FileNotFoundException e){
